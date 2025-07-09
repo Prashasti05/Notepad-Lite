@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>New folder/3735291.png</file>
+        <file>New folder/about.png</file>
+        <file>New folder/copy.png</file>
+        <file>New folder/cut.png</file>
+        <file>New folder/new.png</file>
+        <file>New folder/paste.png</file>
+        <file>New folder/redo.png</file>
+        <file>New folder/save as.png</file>
+        <file>New folder/save.png</file>
+        <file>New folder/undo.png</file>
+        <file>darktheme.qss.txt</file>
+        <file>New folder/12.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>New folder/2cut - Copy.png</file>
+        <file>New folder/font.png</file>
+        <file>New folder/print.png</file>
+        <file>New folder/exit.jpg</file>
+        <file>New folder/colorbg.png</file>
+        <file>New folder/30.png</file>
+        <file>New folder/31.png</file>
+        <file>New folder/32.png</file>
+        <file>New folder/35.png</file>
+    </qresource>
+</RCC>

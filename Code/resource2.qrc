@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/qrc">
+        <file>New folder/2cut.png</file>
+        <file>New folder/font.png</file>
+        <file>New folder/print.png</file>
+        <file>New folder/clipboard_503403.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,89 @@
+#ifndef NOTEPAD_H
+#define NOTEPAD_H
+
+#include <QMainWindow>
+#include<QTextEdit>
+#include<QMenuBar>
+#include<QMenu>
+#include<QAction>
+#include<QColorDialog>
+#include<QToolBar>
+#include<QLabel>   //to show labels like current date
+
+#include "findreplacedialog.h"
+
+
+QT_BEGIN_NAMESPACE
+namespace Ui {
+class MainWindow; //Declares MainWindow class in namespace for Qt's UI
+}
+QT_END_NAMESPACE
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT //macro enables Qt's meta-object features, such as signals n slots.
+
+public:
+    MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
+
+private slots:
+    void on_actionNew_triggered();
+
+    void on_actionOpen_triggered();
+
+    void on_actionSave_triggered();
+
+    void on_actionSave_as_triggered();
+
+    void on_actionCut_triggered();
+
+    void on_actionCopy_triggered();
+
+    void on_actionPaste_triggered();
+
+    void on_actionRedo_triggered();
+
+    void on_actionUndo_triggered();
+
+    void on_actionPrint_triggered();
+
+    void on_actionFont_triggered();
+
+    void on_actionAbout_Notepad_triggered();
+
+    void on_actionExit_triggered();
+
+    //void on_tabWidget_tabCloseRequested(int index);
+
+   // void on_actionNew_Tab_triggered();
+
+    //void on_actionText_color_triggered();
+
+    void on_btnTextcolor_triggered();
+
+    void on_actionBackground_color_triggered();
+
+   // void on_actionItalic_triggered();
+   // void on_actiondark_mode_toggled(bool arg1);
+
+    void on_actionToggleDarkMode_toggled(bool checked);
+
+    void on_actionFind_triggered();
+
+    void on_actionFindReplace_triggered();
+
+    void on_actionbold_toggled(bool checked);
+
+    void on_actionItalic_toggled(bool checked);
+
+private:
+    Ui::MainWindow *ui;//pointer to ui element
+    QString File_path;//stores curr filepth
+    //date
+    QLabel *dateLabel; //label to show curr date
+
+    //find nd replace
+    FindReplaceDialog *findDialog = nullptr;//lazy (set to 0)pointr initilise when user opens find nd rplc dialog
+};
+#endif // NOTEPAD_H
