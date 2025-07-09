@@ -48,9 +48,9 @@ A simple and lightweight Notepad clone built using **C++** and the **Qt Framewor
 
 ## Screenshots
 
-| Notepad 1 | Notepad-2 | 
+| Notepad 1 | Notepad-2 |
 |-----------|-----------|
-| ![notepad1](https://github.com/Prashasti05/Notepad-Lite/blob/4b2f5ad0004553c1dcc4d0cdd76ba6f993cd84a6/Screenshot_notepad.png) |![notepad2](https://github.com/Prashasti05/Student-Management-System/blob/2ad595cf7d8f636fb030cdc6e0a0af9a3b8b8f86/Screenshot_RegisterPage.png) |
+| ![notepad1](https://github.com/Prashasti05/Notepad-Lite/blob/4b2f5ad0004553c1dcc4d0cdd76ba6f993cd84a6/Screenshot_notepad.png) |![notepad2](https://github.com/Prashasti05/Notepad-Lite/blob/7623403c58f06652734eaf27dd12327541d8b9b8/Screenshot_working%20note.png) |
 
 
 ---
