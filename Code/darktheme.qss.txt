@@ -1,4 +1,4 @@
-/* This is your dark theme style */
+/* dark theme style */
 
 QWidget {
     background-color: #121212;
@@ -12,8 +12,6 @@ QTextEdit, QPlainTextEdit {
     selection-background-color:  #44475a;
     selection-color:  white;
 
-  /*  font-family:  inherit;
-    font-size:  inherit; */
 }
 
 QMenuBar, QMenu {
