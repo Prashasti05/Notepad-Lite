@@ -1,6 +1,6 @@
 # Notepad Lite (Qt-based)
 
-A simple and lightweight Notepad clone built using **C++** and the **Qt Framework**. It supports formatted text, file editing, font and color customization, theme switching, and more.
+A simple and lightweight Notepad clone built using **C++** and the **Qt Framework**. It supports formatted text, file editing, font and color customization, Dark theme switching, Find and Replace and more.
 
 ---
 
@@ -24,7 +24,7 @@ A simple and lightweight Notepad clone built using **C++** and the **Qt Framewor
   - Choose custom text and editor background colors.
 
 - **Dark/Light Theme Toggle**
-  - Easily switch between dark and light modes.
+  - Easily switch between dark and light mode.
 
 - **Find and Replace**
   - Find text with "Find Next"
