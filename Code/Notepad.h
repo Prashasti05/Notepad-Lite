@@ -12,16 +12,15 @@
 
 #include "findreplacedialog.h"
 
-
 QT_BEGIN_NAMESPACE
 namespace Ui {
-class MainWindow; //Declares MainWindow class in namespace for Qt's UI
+class MainWindow; 
 }
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
 {
-    Q_OBJECT //macro enables Qt's meta-object features, such as signals n slots.
+    Q_OBJECT 
 
 public:
     MainWindow(QWidget *parent = nullptr);
@@ -54,18 +53,9 @@ private slots:
 
     void on_actionExit_triggered();
 
-    //void on_tabWidget_tabCloseRequested(int index);
-
-   // void on_actionNew_Tab_triggered();
-
-    //void on_actionText_color_triggered();
-
     void on_btnTextcolor_triggered();
 
     void on_actionBackground_color_triggered();
-
-   // void on_actionItalic_triggered();
-   // void on_actiondark_mode_toggled(bool arg1);
 
     void on_actionToggleDarkMode_toggled(bool checked);
 
@@ -78,12 +68,10 @@ private slots:
     void on_actionItalic_toggled(bool checked);
 
 private:
-    Ui::MainWindow *ui;//pointer to ui element
-    QString File_path;//stores curr filepth
-    //date
-    QLabel *dateLabel; //label to show curr date
+    Ui::MainWindow *ui;
+    QString File_path;
 
-    //find nd replace
-    FindReplaceDialog *findDialog = nullptr;//lazy (set to 0)pointr initilise when user opens find nd rplc dialog
+    QLabel *dateLabel; 
+    FindReplaceDialog *findDialog = nullptr;
 };
 #endif // NOTEPAD_H
